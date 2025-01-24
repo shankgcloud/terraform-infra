@@ -5,7 +5,7 @@ variable "region" {
 
 variable "AMI" {
   type    = string
-  default = "ami-00bb6a80f01f03502"
+  default = "ami-00bb6a80f01f03502"     # Ubuntu AMI
 }
 
 variable "instance_type" {
